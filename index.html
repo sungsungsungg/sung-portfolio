@@ -1,8 +1,43 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
 
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+
+<!-- TODO 4: Add titles/subtitles etc. -->
+
+<!-- TODO 5: Add a link to the project pages -->
+
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+
+<!-- TODO 7: Add the Contact Me and About Me page links -->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+        html{
+            box-sizing: border-box;
+        }
+
+        .column{
+            float: left;
+            width:50%
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+
+        }
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -11,23 +46,36 @@
     <h1>Sunghoon Kang Portfolio</h1>
     <h2>I'm a Software Engineer</h2>
     <hr />
-    <h3>Guess My Number</h3>
-    <p>A simple game of guessing a number (JavaScript based)</p>
-    <a href="./public/GuessMyNumber/index.html"
-      ><img
-        src="./assets/images/guess-my-number.png"
-        height="200"
-        alt="guess my number"
-    /></a>
-    <h3>Pig Game</h3>
-    <p>Another simple game of pig-game (JavaScript based)</p>
-    <a href="./public/pig-game/index.html">
-      <img src="./assets/images/pig-game.png" height="200" alt="pig game" />
-    </a>
+    <h3>Works from JavaScript Tutorial</h3>
+    <div class="row">
+        <div class="column" style="background-color:#FFB695">
+            <h3 style="text-align: center;">Guess My Number</h3>
+            <p>A simple game of guessing a number</p>
+            <a href="./public/GuessMyNumber/index.html"
+            ><img
+                src="./assets/images/guess-my-number.png"
+                height="200"
+                alt="guess my number"
+                class="center"
+            /></a>
+        </div>
+        <div class="column" style ="background-color:#96D1CD"> 
+            <h3 style="text-align: center;">Pig Game</h3>
+                <p>Another simple game of pig-game</p>
+                <a href="./public/pig-game/index.html">
+                <img src="./assets/images/pig-game.png" height="200" class="center" alt="pig game" />
+                </a>
+        </div>
+    </div>
+    
 
     <hr/>
     <h4>Contact Me</h4>
 <p><address><a href=tel:+13475634138>+1 (347)563-4138</a></address> <br/>
-<address><a href="mailto:sk6987@nyu.edu">Email: sk6987@nyu.edu</a></address></p>
-  </body>
+<address><a href="mailto:sk6987@nyu.edu">Email: sk6987@nyu.edu</a></address><br/>
+<a href="./assets/images/Sung Kang Resume.pdf" download>Download Resume</a></p>
+<footer>
+    <p>Copyright © Sunghoon Kang. Made with HTML, CSS, JavaScript</p>
+</footer>
+</body>
 </html>
