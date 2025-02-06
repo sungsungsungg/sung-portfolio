@@ -26,10 +26,6 @@
   overflow: hidden;
 }
 
-.title {
-  color: #48a6a7;
-}
-
 .flex-container {
   display: grid;
   grid-template-columns: 6fr 6fr;
@@ -59,4 +55,8 @@
 
 #contact {
   background-color: #9acbd0;
+}
+
+.title {
+  color: #48a6a7;
 }
