@@ -60,3 +60,10 @@
 .title {
   color: #48a6a7;
 }
+
+* {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
