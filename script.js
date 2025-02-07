@@ -54,7 +54,6 @@ const btnCloseModal = document.querySelectorAll(".close-modal");
 const btnsModal = document.querySelectorAll(".show-modal");
 
 const closeModal = function () {
-  console.log(modal.length);
   for (let i = 0; i < modal.length; i++) {
     modal[`${i}`].classList.add("hidden");
   }
@@ -63,8 +62,6 @@ const closeModal = function () {
 };
 
 const openModal = function (i) {
-  console.log(i);
-  //   document.querySelector(`.modal-${i}`).classList.remove("hidden");
   modal[`${i}`].classList.remove("hidden");
   overlay.classList.remove("hidden");
 };
