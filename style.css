@@ -160,6 +160,11 @@
   z-index: 1;
 }
 
-.modal-image:hover .btn-appear {
-  display: block;
+.modal-image {
+  max-width: 300px;
+  border-radius: 10%;
 }
+
+/* .modal-image:hover .btn-appear {
+  display: block;
+} */
