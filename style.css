@@ -208,6 +208,12 @@ nav {
   }
 }
 
+@media (max-width: 1200) and (min-width: 991.98) {
+  .show-modal {
+    width: 60%;
+  }
+}
+
 .modal-content .btn-appear {
   z-index: 200;
   padding: 1rem;
