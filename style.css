@@ -204,6 +204,10 @@ nav {
 }
 
 @media (max-width: 991.98) {
+  .container div:first-child {
+    display: flex;
+    flex-direction: column;
+  }
   .show-modal img {
     height: 40%;
   }
