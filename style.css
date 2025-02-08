@@ -147,9 +147,10 @@ nav {
 
 .show-modal img {
   overflow: hidden;
-  border-radius: 10%;
-  /* height: 80%; */
+  border-radius: 30px;
+  height: 80%;
   object-fit: cover;
+  width: 100%;
 }
 
 .btn-appear {
