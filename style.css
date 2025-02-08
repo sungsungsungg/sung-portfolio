@@ -148,6 +148,7 @@ nav {
 .show-modal img {
   overflow: hidden;
   border-radius: 10%;
+  height: 80%;
 }
 
 .btn-appear {
@@ -155,7 +156,7 @@ nav {
   position: absolute;
   display: flex;
 
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -199,4 +200,15 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 991.98) {
+  .show-modal {
+    width: 50%;
+  }
+}
+
+.modal-content .btn-appear {
+  z-index: 200;
+  padding: 1rem;
 }
