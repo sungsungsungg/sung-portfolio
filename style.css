@@ -148,8 +148,8 @@ nav {
 .show-modal img {
   overflow: hidden;
   border-radius: 10%;
-  height: 80%;
-  align-items: flex-start;
+  /* height: 80%; */
+  object-fit: cover;
 }
 
 .btn-appear {
@@ -201,22 +201,6 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-@media (max-width: 991.98) {
-  .container div:first-child {
-    display: flex;
-    flex-direction: column;
-  }
-  .show-modal img {
-    height: 40%;
-  }
-}
-
-@media (max-width: 2000) and (min-width: 991.98) {
-  .show-modal img {
-    height: 40%;
-  }
 }
 
 .modal-content .btn-appear {
