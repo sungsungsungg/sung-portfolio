@@ -209,7 +209,7 @@ nav {
   }
 }
 
-@media (max-width: 1200) and (min-width: 991.98) {
+@media (max-width: 1600) and (min-width: 991.98) {
   .show-modal {
     height: 30vh;
   }
