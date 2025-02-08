@@ -204,13 +204,14 @@ nav {
 
 @media (max-width: 991.98) {
   .show-modal {
-    width: 30%;
+    /* width: 30%; */
+    height: 30vh;
   }
 }
 
 @media (max-width: 1200) and (min-width: 991.98) {
   .show-modal {
-    width: 60%;
+    height: 30vh;
   }
 }
 
