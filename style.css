@@ -204,14 +204,14 @@ nav {
 }
 
 @media (max-width: 991.98) {
-  .show-modal {
+  .show-modal img {
     align-items: flex-start;
     height: 40%;
   }
 }
 
 @media (max-width: 1600) and (min-width: 991.98) {
-  .show-modal {
+  .show-modal img {
     align-items: flex-start;
     height: 40%;
   }
