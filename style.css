@@ -205,14 +205,13 @@ nav {
 
 @media (max-width: 991.98) {
   .show-modal {
-    /* width: 30%; */
-    height: 100px;
+    align-items: flex-start;
   }
 }
 
 @media (max-width: 1600) and (min-width: 991.98) {
   .show-modal {
-    height: 100px;
+    align-items: flex-start;
   }
 }
 
