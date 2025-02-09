@@ -153,6 +153,11 @@ nav {
   width: 100%;
 }
 
+.show-modal > div {
+  border: solid;
+  border-color: black;
+}
+
 .btn-appear {
   z-index: -1;
   position: absolute;
